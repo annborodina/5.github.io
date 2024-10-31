@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-expand-md py-2 py-md-4">
+        <div class="container">
+            <img src="pictures/logo.png" alt="" class="logo">
+          <button class="navbar-toggler burger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-auto ms-lg-0 align-self-center mx-auto mx-lg-0">
+                        <a class="nav-link align-self-center mx-0 mx-lg-4 text-black" aria-current="page" href="x_categoties.html">Categories</a>
+                    </li>
+                    <li class="nav-item ms-auto ms-lg-0 align-self-center mx-auto mx-lg-0">
+                        <a class="nav-link align-self-center me-0 me-lg-4 text-black" href="x_courses.html">Courses</a>
+                    </li>
+                    <form class="d-flex justify-content-center justify-content-lg-end mb-2 mb-lg-0" role="search">
+                        <div class="input-group flex-nowrap">
+                            <span class="input-group-text" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                            <input class="form-control me-0 form-control_1" type="search" placeholder="Search courses" aria-label="Search">
+                        </div>
+                    </form>
+                </ul>
+                <div class="d-flex flex-row justify-content-center justify-content-lg-end">
+                    <a class="nav-link align-self-center" aria-current="page" href="#"><i class="bi bi-cart3"></i></a>
+                    <a class="nav-link mx-4" aria-current="page" href="x_sign.html"><button class="btn btn-primary nav_btn_1">Log In</button></a>
+                    <a class="nav-link" href="x_sign.html"><button class="btn btn-primary nav_btn_2">Sign Up</button></a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <hr>
+
+
+    <div class="header mb-5">
+        <div class="container">
+            <div class="row d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 align-self-center">
+                    <p class="header_text_1">Unlock Your Potential with Byway</p>
+                    <p class="header_text_2">Welcome to Byway, where learning knows no bounds. We believe that education is the key to personal and professional growth, and we're here to guide you on your journey to success. </p>
+                    <button type="button" class="btn btn-primary px-4 py-2 header_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Start your instructor journey</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              Congratulations! You are one step closer to becoming an excellent instructor. We have sent the information to your email!
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-primary px-4 py-2 modal_btn" data-bs-dismiss="modal">Perfectly!</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-end">
+                    <img src="pictures/header-img.png" alt="" class="header_img mb-2 mb-md-0">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wall_1 d-none d-md-block mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="wall_block d-flex flex-row py-4 py-md-5">
+                    <div class="col-6 col-md-3">
+                        <p class="wall_text_1 text-center m-0">250+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                    <div class="d-flex"><div class="vr"></div></div>
+                    <div class="col-6 col-md-3">
+                        <p class="wall_text_1 text-center m-0">1000+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                    <div class="d-flex"><div class="vr"></div></div>
+                    <div class="col-6 col-md-3">
+                        <p class="wall_text_1 text-center m-0">15+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                    <div class="d-flex"><div class="vr"></div></div>
+                    <div class="col-6 col-md-3">
+                        <p class="wall_text_1 text-center m-0">2400+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wall_2 d-block d-md-none mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="wall_block d-flex flex-row py-4 py-md-5">
+                    <div class="col-6">
+                        <p class="wall_text_1 text-center m-0">250+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                    <div class="d-flex"><div class="vr"></div></div>
+                    <div class="col-6">
+                        <p class="wall_text_1 text-center m-0">1000+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                </div>
+                <div class="wall_block d-flex flex-row py-4 py-md-5  pt-0">
+                    <div class="col-6">
+                        <p class="wall_text_1 text-center m-0">15+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                    <div class="d-flex"><div class="vr"></div></div>
+                    <div class="col-6">
+                        <p class="wall_text_1 text-center m-0">2400+</p>
+                        <p class="wall_text_2 text-center m-0">Courses by our best mentors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="categories mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-row">
+                    <p class="categories_text_1 mt-4">Top Categories</p>
+                    <p class="categories_text_2 mt-4 align-self-center ms-auto">See All</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <div class="categories_block py-4 shadow-sm">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/categories-img-1.png" alt="" class="categories_img mb-4">
+                        </div>
+                        <p class="categories_text_3 text-center">Astrology</p>
+                        <p class="categories_text_4 text-center">11 Courses</p>
+                    </div>
+                </div> 
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <div class="categories_block py-4 shadow-sm">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/categories-img-2.png" alt="" class="categories_img mb-4">
+                        </div>
+                        <p class="categories_text_3 text-center">Development</p>
+                        <p class="categories_text_4 text-center">12 Courses</p>
+                    </div>
+                </div> 
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <div class="categories_block py-4 shadow-sm">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/categories-img-3.png" alt="" class="categories_img mb-4">
+                        </div>
+                        <p class="categories_text_3 text-center">Marketing</p>
+                        <p class="categories_text_4 text-center">12 Courses</p>
+                    </div>
+                </div> 
+                <div class="col-6 col-md-3 mb-4 mb-md-0">
+                    <div class="categories_block py-4 shadow-sm">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/categories-img-4.png" alt="" class="categories_img mb-4">
+                        </div>
+                        <p class="categories_text_3 text-center">Physics</p>
+                        <p class="categories_text_4 text-center">14 Courses</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="courses mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-row">
+                    <p class="courses_text_1 mt-4">Top Courses</p>
+                    <p class="courses_text_2 mt-4 align-self-center ms-auto">See All</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 d-flex mb-4 mb-md-0">
+                    <div class="col courses_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/courses-img.png" alt="" class="courses_img mb-3">
+                        </div>
+                        <p class="courses_text_3 m-0 mb-2">Beginner’s Guide to Design</p>
+                        <p class="courses_text_4 m-0 mb-2">By Ronald Richards</p>
+                        <div class="d-flex flex-row mb-2">
+                            <img src="pictures/starts.png" alt="" class="stars me-2 align-self-center">
+                            <p class="courses_text_5 align-self-center m-0">(1200 Ratings)</p>
+                        </div>
+                        <p class="courses_text_4 m-0 mb-2">22 Total Hours. 155 Lectures. Beginner</p>
+                        <div class="courses-text d-flex flex-column">
+                            <p class="courses_text_6 m-0">$149.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex mb-4 mb-md-0">
+                    <div class="col courses_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/courses-img.png" alt="" class="courses_img mb-3">
+                        </div>
+                        <p class="courses_text_3 m-0 mb-2">Beginner’s Guide to Design</p>
+                        <p class="courses_text_4 m-0 mb-2">By Ronald Richards</p>
+                        <div class="d-flex flex-row mb-2">
+                            <img src="pictures/starts.png" alt="" class="stars me-2 align-self-center">
+                            <p class="courses_text_5 align-self-center m-0">(1200 Ratings)</p>
+                        </div>
+                        <p class="courses_text_4 m-0 mb-2">22 Total Hours. 155 Lectures. Beginner</p>
+                        <div class="courses-text d-flex flex-column">
+                            <p class="courses_text_6 m-0">$149.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex">
+                    <div class="col courses_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/courses-img.png" alt="" class="courses_img mb-3">
+                        </div>
+                        <p class="courses_text_3 m-0 mb-2">Beginner’s Guide to Design</p>
+                        <p class="courses_text_4 m-0 mb-2">By Ronald Richards</p>
+                        <div class="d-flex flex-row mb-2">
+                            <img src="pictures/starts.png" alt="" class="stars me-2 align-self-center">
+                            <p class="courses_text_5 align-self-center m-0">(1200 Ratings)</p>
+                        </div>
+                        <p class="courses_text_4 m-0 mb-2">22 Total Hours. 155 Lectures. Beginner</p>
+                        <div class="courses-text d-flex flex-column">
+                            <p class="courses_text_6 m-0">$149.9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-flex">
+                    <div class="col courses_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/courses-img.png" alt="" class="courses_img mb-3">
+                        </div>
+                        <p class="courses_text_3 m-0 mb-2">Beginner’s Guide to Design</p>
+                        <p class="courses_text_4 m-0 mb-2">By Ronald Richards</p>
+                        <div class="d-flex flex-row mb-2">
+                            <img src="pictures/starts.png" alt="" class="stars me-2 align-self-center">
+                            <p class="courses_text_5 align-self-center m-0">(1200 Ratings)</p>
+                        </div>
+                        <p class="courses_text_4 m-0 mb-2">22 Total Hours. 155 Lectures. Beginner</p>
+                        <div class="courses-text d-flex flex-column">
+                            <p class="courses_text_6 m-0">$149.9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="instructors mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-row">
+                    <p class="instructors_text_1 mt-4">Top Instructors</p>
+                    <p class="instructors_text_2 mt-4 align-self-center ms-auto">See All</p>
+                </div>
+            </div>
+            <div class="row row-cols-lg-5">
+                <div class="col col-6 col-md-3 d-flex mb-4 mb-lg-0">
+                    <div class="col instructors_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/instructors-img.png" alt="" class="instructors_img mb-4">
+                        </div>
+                        <p class="instructors_text_3 text-center m-0 mb-1">Ronald Richards</p>
+                        <p class="instructors_text_4 text-center m-0">UI/UX Designer</p>
+                        <div class="instructors_bottom d-flex flex-column">
+                            <hr>
+                            <div class="d-flex flex-row">
+                                <img src="pictures/star.png" alt="" class="star align-self-center me-1">
+                                <p class="instructors_text_5 m-0 align-self-center">4.9</p>
+                                <p class="instructors_text_6 m-0 ms-auto align-self-center">2400 Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3 d-flex mb-4 mb-lg-0">
+                    <div class="col instructors_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/instructors-img.png" alt="" class="instructors_img mb-4">
+                        </div>
+                        <p class="instructors_text_3 text-center m-0 mb-1">Ronald Richards</p>
+                        <p class="instructors_text_4 text-center m-0">UI/UX Designer</p>
+                        <div class="instructors_bottom d-flex flex-column">
+                            <hr>
+                            <div class="d-flex flex-row">
+                                <img src="pictures/star.png" alt="" class="star align-self-center me-1">
+                                <p class="instructors_text_5 m-0 align-self-center">4.9</p>
+                                <p class="instructors_text_6 m-0 ms-auto align-self-center">2400 Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3 d-flex mb-4 mb-lg-0">
+                    <div class="col instructors_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/instructors-img.png" alt="" class="instructors_img mb-4">
+                        </div>
+                        <p class="instructors_text_3 text-center m-0 mb-1">Ronald Richards</p>
+                        <p class="instructors_text_4 text-center m-0">UI/UX Designer</p>
+                        <div class="instructors_bottom d-flex flex-column">
+                            <hr>
+                            <div class="d-flex flex-row">
+                                <img src="pictures/star.png" alt="" class="star align-self-center me-1">
+                                <p class="instructors_text_5 m-0 align-self-center">4.9</p>
+                                <p class="instructors_text_6 m-0 ms-auto align-self-center">2400 Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3 d-flex mb-4 mb-lg-0">
+                    <div class="col instructors_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/instructors-img.png" alt="" class="instructors_img mb-4">
+                        </div>
+                        <p class="instructors_text_3 text-center m-0 mb-1">Ronald Richards</p>
+                        <p class="instructors_text_4 text-center m-0">UI/UX Designer</p>
+                        <div class="instructors_bottom d-flex flex-column">
+                            <hr>
+                            <div class="d-flex flex-row">
+                                <img src="pictures/star.png" alt="" class="star align-self-center me-1">
+                                <p class="instructors_text_5 m-0 align-self-center">4.9</p>
+                                <p class="instructors_text_6 m-0 ms-auto align-self-center">2400 Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-6 col-md-3 d-flex">
+                    <div class="col instructors_block shadow-sm d-flex flex-column">
+                        <div class="d-flex justify-content-center">
+                            <img src="pictures/instructors-img.png" alt="" class="instructors_img mb-4">
+                        </div>
+                        <p class="instructors_text_3 text-center m-0 mb-1">Ronald Richards</p>
+                        <p class="instructors_text_4 text-center m-0">UI/UX Designer</p>
+                        <div class="instructors_bottom d-flex flex-column">
+                            <hr>
+                            <div class="d-flex flex-row">
+                                <img src="pictures/star.png" alt="" class="star align-self-center me-1">
+                                <p class="instructors_text_5 m-0 align-self-center">4.9</p>
+                                <p class="instructors_text_6 m-0 ms-auto align-self-center">2400 Students</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="customers mb-5 py-4 py-md-5">
+        <div class="container">
+            <div class="row">
+                <p class="customers_text_1 m-0">What Our Customer Say</p>
+                <p class="customers_text_1">About Us</p>
+            </div>
+            <div class="row">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active px-2">
+                            <div class="row">
+                                <div class="col-4 d-none d-md-block">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 d-none d-md-block">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item px-2">
+                            <div class="row">
+                                <div class="col-4 d-none d-md-block">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 d-none d-md-block">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item px-2">
+                            <div class="row">
+                                <div class="col-4 d-none d-md-block">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-4 d-none d-md-block">
+                                    <div class="slider_block p-4">
+                                        <img src="pictures/quote.png" alt="" class="quote mb-4">
+                                        <p class="customers_text_3">"Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia. </p>
+                                        <div class="d-flex flex-row">
+                                            <img src="pictures/slider-img.png" alt="" class="slider_img me-3 align-self-center">
+                                            <div class="d-flex flex-column align-self-center">
+                                                <p class="customers_text_4 m-0">Jonathan Vallem</p>
+                                                <p class="customers_text_5 m-0">New york, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product pt-4 mb-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 align-self-center">
+                    <img src="pictures/product-img-1.png" alt="" class="product-img-1 ms-0 ms-md-5 mb-4 mb-md-0">
+                </div>
+                <div class="col-12 col-md-6 align-self-center">
+                    <p class="product_text_1">Become an Instructor</p>
+                    <p class="product_text_2 m-0">Instructors from around the world teach millions of students on</p>
+                    <p class="product_text_2">Byway. We provide the tools and skills to teach what you love.</p>
+                    <button class="btn btn-primary product_btn px-3 py-2">Start Your Instructor Journey <span class = "">&#8594;</span></button>
+                </div>
+            </div>
+            <div class="row d-flex flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 align-self-center">
+                    <p class="product_text_1 me-5 me-md-0 ms-0 ms-md-5 text-end text-md-start">Transform your life through education</p>
+                    <p class="product_text_2 m-0 me-5 me-md-0 ms-0 ms-md-5 text-end text-md-start">Learners around the world are launching new careers,</p>
+                    <p class="product_text_2 me-5 me-md-0 ms-0 ms-md-5 text-end text-md-start">advancing in their fields, and enriching their lives.</p>
+                    <div class="d-flex justify-content-end justify-content-md-start">
+                        <button class="btn btn-primary product_btn px-3 py-2 me-5 me-md-0 ms-0 ms-md-5">Checkout Courses <span class = "">&#8594;</span></button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 align-self-center">
+                    <div class="d-flex justify-content-end">
+                        <img src="pictures/product-img-2.png" alt="" class="product-img-2 ms-0 ms-md-5 mb-4 mb-md-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer py-4 py-md-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <img src="pictures/logo-footer.png" alt="" class="mb-4">
+                    <p class="footer_text_1 m-0">Empowering learners through accessible and engaging online education.</p>
+                    <p class="footer_text_1 me-5 mb-4 mb-mb-0">Byway is a leading online learning platform dedicated to providing high-quality, flexible, and affordable educational experiences. </p>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="row">
+                        <div class="col-6 col-sm-3">
+                            <p class="footer_text_2">Get Help</p>
+                            <p class="footer_text_3">Contact Us</p>
+                            <p class="footer_text_3">Latest Articles</p>
+                            <p class="footer_text_3">FAQ</p>
+                        </div>
+
+                        <div class="col-6 col-sm-3">
+                            <p class="footer_text_2">Programs</p>
+                            <p class="footer_text_3">Art & Design</p>
+                            <p class="footer_text_3">Business</p>
+                            <p class="footer_text_3">IT & Software</p>
+                            <p class="footer_text_3">Languages</p>
+                            <p class="footer_text_3">Programming</p>
+                        </div>
+
+                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                            <p class="footer_text_2">Contact Us</p>
+                            <p class="footer_text_3">Address: 123 Main Street, Anytown, CA 12345</p>
+                            <p class="footer_text_3">Tel: +(123) 456-7890</p>
+                            <p class="footer_text_3">Mail: bywayedu@webkul.in</p>
+                            <img src="pictures/icon.png" alt="" class="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="js/app.js"></script>
+</body>
+</html>

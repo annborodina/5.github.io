@@ -1,0 +1,310 @@
+.design{
+    background-color: #F8FAFC;
+}
+
+.breadcrumb-item{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #334155;
+}
+
+.design_text_1{
+    font-family: InterBlack;
+    font-size: clamp(27px, 2.7vw, 40px);
+}
+
+.design_text_2{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.design_text_3{
+    font-family: InterMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.design_text_4{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #334155;
+}
+
+.design_text_5, .design_text_6{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.design_img_2{
+    width: 40px;
+    height: 40px;
+}
+
+.design_block_1{
+    border-radius: 16px;
+}
+
+.design_img_3{
+    width: 100%;
+}
+
+.design_text_7{
+    font-family: InterSemibold;
+    font-size: clamp(16px, 1.6vw, 24px);
+}
+
+.design_text_8{
+    font-family: InterSemibold;
+    font-size: clamp(12.5px, 1.25vw, 18px);
+    color: #CFD1D4;
+}
+
+.design_text_9{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.design_btn_1.btn-primary, .design_btn_1.btn-primary:hover, .design_btn_1.btn-primary:active, .design_btn_1.btn-primary:visited {
+    background-color: black !important;
+    border: 1px solid black;
+    color: white;
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.design_btn_2.btn-primary, .design_btn_2.btn-primary:hover, .design_btn_2.btn-primary:active, .design_btn_2.btn-primary:visited {
+    background-color: white !important;
+    border: 1px solid black;
+    color: black;
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.hr_3{
+    margin-left: -24px;
+    margin-right: -24px;
+}
+
+.design_text_10{
+    font-family: InterMedium;
+    font-size: clamp(11px, 1.1vw, 16px);   
+}
+
+.design_img_4{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.nav-pills .nav-link{
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    width: 148px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #EFF6FF;
+    border-radius: 8px;
+    border: 1px solid #EFF6FF;
+}
+
+.tabs_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.tabs_text_2{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #334155;
+}
+
+
+
+
+
+
+
+
+
+.inst_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.inst_text_2{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+    color: #2563EB;
+}
+
+.inst_text_3, .inst_text_5{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #334155;
+}
+
+.inst_text_4{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.inst_img{
+    width: 85px;
+}
+
+
+
+
+
+
+
+
+
+.syllabus_block{
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    width: 70%;
+}
+
+.syllabus_block_1{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.syllabus_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.syllabus_text_2{
+    font-family: InterSemibold;
+    font-size: clamp(12.5px, 1.25vw, 18px);
+}
+
+.syllabus_text_3{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #334155;
+}
+
+.hr_2{
+    padding: 0px 12px;
+    width: 67.5%;
+}
+
+
+
+
+
+
+
+
+
+.reviews-block{
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+}
+
+.reviews_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.reviews_text_2{
+    font-family: InterSemibold;
+    font-size: clamp(12.5px, 1.25vw, 18px);
+}
+
+.reviews_text_3{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #334155;
+}
+
+.reviews_text_4{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.reviews_btn{
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.reviews_btn.btn-primary, .reviews_btn.btn-primary:hover, .reviews_btn.btn-primary:active, .reviews_btn.btn-primary:visited {
+    background-color: white !important;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .reviews_img_2{
+        width: 10%;
+        height: 10%;
+    }
+
+    .reviews_img_3{
+        width: 6%;
+    }
+
+    .design_block{
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media(min-width: 768px){
+    .reviews_img_1{
+        width: 90%;
+    }
+
+    .reviews_img_2{
+        width: 25%;
+        height: 25%;
+    }
+
+    .reviews_img_3{
+        width: 7.5%;
+    }
+
+    .design_block{
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media(min-width: 992px){
+    .reviews_img_1{
+        width: 65%;
+    }
+
+    .reviews_img_3{
+        width: 6%;
+    }
+}

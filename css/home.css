@@ -1,0 +1,159 @@
+.header_text_1{
+    font-family: InterBlack;
+    font-size: clamp(28px, 2.8vw, 40px);
+}
+
+.header_text_2{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.header_btn{
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.modal-body{
+    font-family: InterSemibold;
+    font-size: clamp(16px, 1.6vw, 24px);
+}
+
+.modal_btn{
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+
+
+
+
+
+
+
+
+.wall_1, .wall_2{
+    background-color: #F8FAFC;
+}
+
+.wall_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(22px, 2.2vw, 32px);
+}
+
+.wall_text_2{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.vr{
+    width: 4px;
+    color: #d2d8e0;
+}
+
+
+
+
+
+
+
+
+
+.categories_block{
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+}
+
+.categoties_text{
+    margin-top: auto;
+}
+
+.categories_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(16px, 1.6vw, 24px);
+}
+
+.categories_text_2{
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #3B82F6;
+}
+
+.categories_text_3{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.categories_text_4{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.categories_img{
+    width: 35%;
+}
+
+
+
+
+
+
+
+
+
+.product_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(14px, 1.4vw, 20px);
+}
+
+.product_text_2{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.product_btn{
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.product_btn.btn-primary, .product_btn.btn-primary:hover, .product_btn.btn-primary:active, .product_btn.btn-primary:visited {
+    background-color: black !important;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .header_img{
+        width: 70%;
+    }
+
+    .product-img-1{
+        width: 50%;
+    }
+
+    .product-img-2{
+        width: 60%;
+    }
+}
+
+@media(min-width: 768px){
+    .header_img{
+        width: 100%;
+    }
+
+    .product-img-1{
+        width: 65%;
+    }
+
+    .product-img-2{
+        width: 80%;
+    }
+}

@@ -1,0 +1,143 @@
+.filter_text_1{
+    font-family: InterBlack;
+    font-size: clamp(28px, 2.8vw, 40px);
+}
+
+.filter_text_2{
+    font-family: InterSemibold;
+    font-size: clamp(16px, 1.6vw, 24px);
+}
+
+.filter_text_3{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.filter_btn_1, .filter_text_3{
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.filter_btn_1.btn-primary, .filter_btn_1.btn-primary:hover, .filter_btn_1.btn-primary:active, .filter_btn_1.btn-primary:visited {
+    background-color: white !important;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+}
+
+.form-select{
+    width: 125px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: InterMedium;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.form-select:focus,
+.form-select:active{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.page-link{
+    background-color: white;
+    color: #334155;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #334155;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+.accordion-item{
+    border: none;
+    border-bottom: 1px solid #E2E8F0;
+    background-color: white;
+}
+
+.accordion_item_1{
+    border: none;
+}
+
+/*убираем голубой бэкграунд у аккордеона*/
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit;
+  }
+
+button.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+.accordion-button{
+    font-family: InterMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.form-check-input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.form-check-label{
+    font-family: InterRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+
+
+
+
+
+
+
+.instructors{
+    background-color: #F8FAFC;
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .filter_img_1{
+        width: 60%;
+    }
+}
+
+@media(min-width: 768px){
+    .filter_img_1{
+        width: 50%;
+    }
+}
+
+@media(max-width: 450px){
+    .filter_img_1{
+        width: 70%;
+    }
+}
+
+@media(min-width: 992px){
+    .filter_img_1{
+        width: 27.5%;
+    }
+}
